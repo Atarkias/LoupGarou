@@ -20,7 +20,7 @@
             android:contentDescription="Banniere loup garou choix du mode"
             android:layout_width="match_parent"
             android:layout_height="182dp"
-            app:srcCompat="@drawable/Banniere_loup_garou" />
+            app:srcCompat="@drawable/banniere_loup_garou" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +34,8 @@
                 android:gravity="center"
                 android:text="@string/choix_mode"
                 android:textColor="#B91A4A"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <Button
                 android:id="@+id/bouton_mode_narrateur"
