@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="top"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="128dp"
@@ -30,11 +30,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="55dp"
-                android:gravity="center"
+                android:padding="75dp"
+                android:gravity="center_horizontal"
                 android:text="@string/choix_mode"
                 android:textColor="#B91A4A"
-                android:textSize="24sp"
+                android:textSize="23sp"
                 app:layout_constraintTop_toTopOf="parent"/>
 
             <Button
