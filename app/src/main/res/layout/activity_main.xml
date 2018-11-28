@@ -16,7 +16,8 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/banniere_choix_mode"
+            android:contentDescription="Banniere loup garou choix du mode"
             android:layout_width="match_parent"
             android:layout_height="182dp"
             app:srcCompat="@drawable/Banniere_loup_garou" />
@@ -29,27 +30,28 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="55dp"
                 android:gravity="center"
-                android:text="Choix du mode de jeu"
-                android:textSize="25sp"
-                android:layout_margin="60dp"
-                android:textColor="#B91A4A" />
+                android:text="@string/choix_mode"
+                android:textColor="#B91A4A"
+                android:textSize="25sp" />
 
             <Button
+                android:id="@+id/bouton_mode_narrateur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mode Narrateur"
+                android:text="@string/node_narrateur"
                 android:padding="35sp"
                 android:textColor="#010000"/>
 
             <Button
+                android:id="@+id/boutton_mode_ligne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mode en ligne"
+                android:text="@string/mode_ligne"
                 android:padding="35sp"
-                android:textColor="#010000"/>
+                android:textColor="#010000" />
 
         </LinearLayout>
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
