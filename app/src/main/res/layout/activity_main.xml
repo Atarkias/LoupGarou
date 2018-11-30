@@ -8,11 +8,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
         android:gravity="top"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="128dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -21,6 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="182dp"
             app:srcCompat="@drawable/banniere_loup_garou" />
+
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,5 +55,4 @@
                 android:textColor="#010000" />
 
         </LinearLayout>
-    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
