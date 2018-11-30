@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ModeNarrateur" />
-        <activity android:name=".ModeEnLigne"></activity>
+        <activity android:name=".ModeEnLigne" />
+        <activity android:name=".FicheCreationPartie" />
+        <activity android:name=".FicheRejoindrePartie"></activity>
     </application>
 
 </manifest>

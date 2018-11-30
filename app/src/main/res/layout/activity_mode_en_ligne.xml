@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="191dp"
             android:layout_weight="0.9"
-            app:srcCompat="@drawable/LoupsGarous_presentation" />
+            app:srcCompat="@drawable/loupsgarous_presentation" />
 
         <AutoCompleteTextView
             android:id="@+id/saisie_pseudo"

@@ -32,7 +32,7 @@ public class ModeEnLigne extends AppCompatActivity {
         rejoindrePartie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent otheractivity = new Intent(getApplicationContext(),FicheRejoindePartie.class);
+                Intent otheractivity = new Intent(getApplicationContext(),FicheRejoindrePartie.class);
                 startActivity(otheractivity);
                 finish();
             }
