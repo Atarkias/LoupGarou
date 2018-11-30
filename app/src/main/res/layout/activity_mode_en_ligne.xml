@@ -10,17 +10,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="397dp"
+        android:layout_height="match_parent"
         android:layout_weight="0.5"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="26dp">
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="343dp"
+            android:layout_height="337dp"
+            android:layout_weight="1"
             app:srcCompat="@drawable/LoupsGarous_presentation" />
 
         <AutoCompleteTextView
@@ -39,21 +37,19 @@
         android:layout_width="match_parent"
         android:layout_height="165dp"
         android:layout_weight="0.5"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="392dp">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/button_creerPartie"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Créer une partie" />
 
         <Button
             android:id="@+id/button_rejoindrePartie"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Rejoindre une partie" />
 
