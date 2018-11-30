@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".ModeEnLigne">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="26dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="343dp"
+            app:srcCompat="@drawable/LoupsGarous_presentation" />
+
+        <TextView
+            android:id="@+id/saisie_pseudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Saisis ton nom !"
+            android:textSize="36sp"
+            android:textStyle="normal"
+            tools:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/button_creerPartie"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="Créer une partie" />
+
+        <Button
+            android:id="@+id/button_rejoindrePartie"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="Rejoindre une partie" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
