@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".ModeEnLigne">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="397dp"
+        android:layout_weight="0.5"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="26dp">
 
         <ImageView
@@ -20,26 +23,39 @@
             android:layout_height="343dp"
             app:srcCompat="@drawable/LoupsGarous_presentation" />
 
-        <TextView
+        <AutoCompleteTextView
             android:id="@+id/saisie_pseudo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Saisis ton nom !"
-            android:textSize="36sp"
+            android:textSize="30sp"
             android:textStyle="normal"
             tools:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="392dp">
 
         <Button
             android:id="@+id/button_creerPartie"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
             android:text="Créer une partie" />
 
         <Button
             android:id="@+id/button_rejoindrePartie"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
             android:text="Rejoindre une partie" />
+
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
